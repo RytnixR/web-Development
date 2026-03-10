@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8</title>
+    <style>
+        .container {
+            position: relative;
+            width: 70vw;
+            height: 70vh;
+            background-color: rgb(58, 226, 226);
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: antiquewhite;
+            border-radius: 28px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: identifierY 1s ease-out infinite alternate,identifierX 4s linear infinite ;
+            /* animation: identifierX 3s linear infinite alternate; */
+        }
+        @keyframes identifierX {
+            from{
+                left: 0;
+            }
+            to{
+                left: 100%;
+            }
+        }
+        @keyframes identifierY {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>

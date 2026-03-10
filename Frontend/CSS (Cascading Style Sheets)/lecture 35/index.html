@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        .boxes{
+            text-align: center;
+        }
+        .box:first-child{
+            background-color: antiquewhite;
+
+        }
+        .box::first-line{
+            color: rgb(146, 105, 54);
+        }
+        [data-color="primary"]{
+            background-color: rgb(238, 212, 179);
+        }
+        .box:nth-last-child(1){
+            background-color: rgb(237, 195, 141);
+        }
+        .box::first-letter{
+            color: rgb(142, 84, 9);
+            font-size: 33px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Heeyyyy</div>
+        <div data-color="primary" class="box">Hoooooo</div>
+        <div class="box">Hannnnn</div>
+    </div>
+</body>
+</html>

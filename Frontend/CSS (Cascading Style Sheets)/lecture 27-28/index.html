@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: aqua;
+        }
+
+        .box2 {
+            position: relative;
+            top: -90px;
+            left: 20px;
+            background-color: antiquewhite;
+        }
+
+        .box3 {
+            position: relative;
+            top: -180px;
+            left: 40px;
+            background-color: beige;
+        }
+
+        .box4 {
+            text-align: center;
+            position: relative;
+            left: 60px;
+            top: -270px;
+            background-color: rgb(137, 137, 244);
+        }
+
+        .box {
+            padding: 3px;
+            margin: 15px;
+            height: 80px;
+            width: 500px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3">z-index</div>
+    <div class="box box4">we can use sticky position for nav bar </div>
+</body>
+
+</html>

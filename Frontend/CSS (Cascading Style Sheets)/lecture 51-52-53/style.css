@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+.main {
+    background-image: url("Images/netflix_backgraound.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 15px;
+
+}
+
+nav img {
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+body{
+    background-color: black;
+}
+.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif ;
+    gap: 23px;
+    padding: 23px;
+    text-align: center;
+
+}
+.hero> :first-child{
+    font-size: 55px;
+    font-weight: 900;
+}
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.hero> :nth-child(3){
+    text-align: center;
+    
+}

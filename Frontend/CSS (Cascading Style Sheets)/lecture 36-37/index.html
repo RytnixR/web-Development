@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        :root{
+            --color:rgb(2, 77, 2);
+            --seccolor:rgb(159, 238, 159);
+        }
+       * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        .nav {
+            background-color: var(--color);
+            color: white;
+            display: flex;
+            height: 83px;
+        }
+
+        main {
+            background-color: black;
+            color: white;
+            padding: 34px;
+        }
+
+        .container {
+            background-color: var(--seccolor);
+            margin: 12px 34px;
+            padding: 55px 23px;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: aquamarine;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        .box2 {
+            background-color: aquamarine;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 24px;
+            margin: 3px;
+        }
+        .text-box {
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 20vw;
+            font-size: 2em;
+            border-radius: 18px;
+
+        }
+
+        .orange-box {
+            height: 52px;
+            width: 52px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+        }
+
+        footer {
+            height: 100px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+        <div class="text-box">
+            <p>Hey this is the 5th exercise of web dev</p>
+        </div>
+
+        <div class="orange-box"></div>
+    </main>
+
+    <footer>
+        <div class="footer">
+        this is footer
+    </div>
+    </footer>
+    
+</body>
+</html>

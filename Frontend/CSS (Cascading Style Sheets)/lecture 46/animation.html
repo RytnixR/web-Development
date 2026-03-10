@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container{
+            background-color: rgb(65, 100, 45);
+            width: 30vw;
+            height: 80vh;
+
+        }
+        .box{
+            height: 45px;
+            width: 34px;
+            background-color: aqua;
+            animation: identifier 3s cubic-bezier(0.86, 0.25, 0.19, 1) 1s infinite forwards alternate;
+
+        }
+        @keyframes identifier {
+            from{
+                background-color: yellow;
+            }
+            to{
+                transform: translateX(540px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
