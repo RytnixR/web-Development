@@ -73,3 +73,37 @@ body{
     text-align: center;
     
 }
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23 ,23, 23, .7);
+    border: 1px solid rgba(228, 220, 220, 0.5);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
+
+}
