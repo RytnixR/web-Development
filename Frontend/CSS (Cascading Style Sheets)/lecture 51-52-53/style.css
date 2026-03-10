@@ -75,8 +75,11 @@ body{
 }
 .btn{
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight:400;
+    color: white;
+    background-color: rgba(117, 113, 113, 0.164);
+    border-radius: 4px;
+    cursor: pointer;
 
 }
 .btn-red{
@@ -85,6 +88,12 @@ body{
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
+
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
 
 }
 .hero-buttons{
@@ -100,10 +109,4 @@ body{
     border-radius: 4px;
     background-color: rgba(23 ,23, 23, .7);
     border: 1px solid rgba(228, 220, 220, 0.5);
-}
-.btn-red-sm{
-    background-color: red;
-    color: white;
-
-
 }
