@@ -34,7 +34,7 @@ console.log(typeof x, y,typeof z,typeof p,typeof q,typeof r);
 
 let o = {
     name: "rajeev khanduri",
-    "job codea": 8474,
+    "job code": 8474,
     Is_smart : "true"
 }
 console.log(o);
