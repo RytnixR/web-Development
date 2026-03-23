@@ -34,6 +34,6 @@ function sum(a, b, c){
     console.log(sum(arr[0], arr[1], arr[2]))  // or can be as writen below
     console.log(sum(...arr))
 
-    // hosting  declaration on var move at the top of the block but assignment remains at same place
+    // hosting  declaration on var move at the top of the block but assignment remains at same place but if we use let instead of var hosting didn't occure
 
 })()
